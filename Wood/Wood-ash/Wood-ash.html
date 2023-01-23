@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>JKnudsen</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+li:hover{
+  background-color:DimGray;
+  border:2px solid Silver;
+}
+* {
+  box-sizing: border-box;
+  }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #46261F;
+}
+
+/* Style the header */
+header {
+  background-color: Gray;
+  text-align: left;
+  font-size: 300%;
+  color: Ivory;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;  
+  padding:1px;
+}
+nav li {
+  font-size:150%;
+  border:2px solid DarkGray; 
+  background-color:#444343; 
+  position:relative;
+  left:10px;
+  padding:3px;
+  margin: 10px ;
+}
+nav li a{
+  margin:1px;
+  padding:1px;	
+  color:Ivory; 
+  text-decoration:none; 
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  background-color: WhiteSmoke;
+
+}
+article p{
+	margin:1px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  
+  <h2>
+      <img src="../wood_is_good.jpg" alt="Failed to Load" style="width:300px;height:200px;padding:5px;">
+      Wood-Ash
+  </h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+	  <li style="width:40%; left:-20px;"><a href="../../index.htm">Home</a></li>
+      <li style="width:60%; left:-10px;"><a href="../Wood.htm" >Wood</a></li>
+      <li><a href="#" >...</a></li>
+
+      
+      
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Reborn from the Ashes!</h1>
+    
+	<p>After noticing that 100% reliance on firewood for heating, produced large amounts of</p>
+	<p>wood ash. Finding uses for it became a priorety.</p>
+	<p>I had used ash for glaze in the past. But had troubles getting my current spruce ash</p>
+	<p>to melt before the stoneware.</p>
+	<p>The composition of spruce ash reveals why the melting point was so high.</p>
+ <table>
+  <tr>
+    <th>Source</th>
+	<th>SiO2</th>
+    <th>CaO</th>  
+	<th>Al2O3</th>
+	<th>MgO</th>
+	<th>Fe2O3</th>
+	<th>TiO2</th>
+	<th>K2O</th>
+	<th>P2O5</th>
+	<th>SO3</th>
+	<th>Na2O</th>
+	
+  </tr>
+  <tr>
+    <td>Spruce wood</td>
+    <td>49.3</td>
+    <td>17.2</td>
+	
+	<td>9.4</td>
+	<td>1.1</td>
+	<td>8.3</td>
+	<td>0.1</td>
+	<td>9.6</td>
+	<td>1.9</td>	
+	<td>2.6</td>
+	<td>0.5</td>
+	
+  </tr>
+  <tr>
+    <td>Spruce bark</td>
+    <td>6.1</td>
+    <td>72.4</td>
+	<td>0.7</td>
+	<td>5.0</td>
+	<td>2.0</td>
+	<td>0.1</td>	
+	<td>7.2</td>
+	<td>2.69</td>
+	<td>1.8</td>
+	<td>2.0</td>
+
+  </tr>
+   <tr>
+    <td>Sawdust</td>
+    <td>26.2</td>
+    <td>44.1</td>	
+	<td>4.5</td>
+	<td>5.3</td>
+	<td>1.8</td>
+    <td>0.4</td>
+	<td>10.8</td>
+	<td>2.3</td>
+	<td>2.0</td>
+	<td>2.5</td>
+	
+  </tr>
+</table>
+	<p>As can be seen, high content of both Al2O3 and CaO raise the meltingpoint substancially.</p>
+	<p>And when you wash the ash, to remove water-soluble components of the glaze,</p>
+	<p>there is pretty much no flux. </p>
+	<p>So in order to get reliable results, the components must be seperated.</p>
+	<p>This also provides a steady source of Al2O3 for abrasives, and was actually</p>
+	<p>the main reason I started this extraction endeavour.</p>
+	<p> </p>
+	<p>The first step is washing the ash. This removes the water-soluble oxides.</p>
+	<table>
+  <tr>
+    <th>Component</th>
+	<th>SiO2</th>
+    <th>Ca(OH)2</th>
+	<th>Al2O3</th>
+	<th>Mg(OH)2</th>
+	<th>Fe2O3</th>
+	<th>TiO2</th>
+    <th>KOH</th>
+	<th>H3PO4</th>
+	<th>H2SO4</th>
+	<th>NaOH</th>
+
+  </tr>
+  <tr>
+    <td>Soluble</td>
+    <td>0.0</td>
+    <td>0.0*</td>
+	<td>0.0</td>
+	<td>0.0</td>
+	<td>0.0</td>
+	<td>0.0</td>
+	<td>65.7</td>
+	<td>13.0</td>
+	<td>17.8</td>
+	<td>3.4</td>
+
+  </tr>
+  <tr>
+    <td>Insoluble</td>
+    <td>57.7</td>
+    <td>20.1</td>
+
+	<td>11.0</td>
+	<td>1.3</td>
+	<td>9.7</td>
+	<td>0.1</td>
+	<td>0.0</td>
+	<td>0.0</td>
+	<td>0.0</td>
+	<td>0.0</td>
+
+  </tr>
+</table>
+	<p>This table makes certain unrealistic assumtions, such as sulphuric acid remaining in solution.</p>
+	<p>Or all the Ca(OH)2 remains undissolved.</p>
+	<p>Regardless, the liquid part is a great source for Potassium Hydroxide. </p>
+	<p>The hydroxides can to some extent be seperated by recrystalization.</p>
+	<p>But the solid  needs futher refining. </p>
+	<p>The liquid is decanted off, leaving the solid. The wash-step may be repeated.</p>
+	<p></p>
+	<p>The solid powder is then spread out in the sun, and left to dry for a few days.</p>
+	<p>When the sun has done most of the drying. The solid batch is transfered to a metall</p>
+	<p>container, and put on the stove for a day or so. Shaking up the contents speeds up</p>
+	<p>the process.</p>
+	<p></p>
+	<p>When the batch is bone-dry. A large Nd-Magnet is used to seperate the iron</p>
+	<p>from the batch.</p>
+	<p></p>
+	<p>The new composition reads.</p>
+	<table>
+  <tr>
+    <th>Component</th>
+	<th>SiO2</th>
+    <th>Ca(OH)2</th>
+	<th>Al2O3</th>
+	<th>Mg(OH)2</th>
+	<th>Fe2O3</th>
+	<th>TiO2</th>
+    <th>KOH</th>
+	<th>H3PO4</th>
+	<th>H2SO4</th>
+	<th>NaOH</th>
+
+  </tr>
+  <tr>
+    <td>Magnetic</td>
+    <td>0.0</td>
+    <td>0.0</td>
+	<td>0.0</td>
+	<td>0.0</td>
+	<td>100.0</td>
+	<td>0.0</td>
+	<td>0.0</td>
+	<td>0.0</td>
+	<td>0.0</td>
+	<td>0.0</td>
+
+  </tr>
+  <tr>
+    <td>Non-Magnetic</td>
+    <td>63.4</td>
+    <td>22.1</td>
+	<td>12.1</td>
+	<td>1.4</td>
+	<td>0.0</td>
+	<td>0.1</td>
+	<td>0.0</td>
+	<td>0.0</td>
+	<td>0.0</td>
+	<td>0.0</td>
+
+  </tr>
+</table>
+    <p>From here, one could do a Soxhlet extraction if Ca(OH)2 is of interest. But you may</p>
+	<p>just start with bark and get ~70% of the bat.</p>
+	<p>In my experiments, I've simply washed out Ca(OH)2 and Mg(OH)2. By diverting</p>
+	<p>my creek in a hose, through the bucket. This will flush out the poorly soluble  </p>
+	<p>hydroxides in a day or two.</p>
+	<p></p>
+	<p>The remaining solids is  about 84% SiO2, and 16% Al2O3.</p>
+	<p>From here there is two possible ways to go. The Bayer process, and The Orbite</p>
+	<p>process. Bayer uses cheap and easly available NaOH. But I've had no luck, and just</p>
+	<p>end up with Sodium aluminosilicate. </p>
+	<p></p>
+	<p>The Orbite process is much simpler. But require hydrochloric, acid at 2-3x the price</p>
+	<p>of sodium hydroxide. Sodium hydroxide is also recoverable in the Bayer process.</p>
+	<p>In Orbite, we heat the Al2O3 in a solution of 33%HCl, forming AlCl3 in solution.</p>
+	<p>When the pH is nutral, all the Al2O3 is converted, and dissolved.</p>
+	<p>The remaining solid is a high purety SiO2 and can be removed with vacuum filtation.</p>
+	<p>The remaining solution can then be evaporated. Leaving AlCl3 hexahydrate.</p>
+	<p>When heated to 100C, the hexahydrate decompose. But instead of giving the anhydride,</p>
+	<p>HCl gas is released, leaving a high purity Al2O3. Now you could possibly</p>
+	<p>recover the HCl gas in the last step, but it would require a closed Soxhlet</p>
+	<p>type system. Possibly with a circulation pump and bubbler. </p>
+    <p> </p>
+    <p>In the end, we are left with several usefull minerals, of high purety, for glass, </p>
+	<p>ceramics, abrassives and more. These are mainly SiO2, Ca0, Fe2O3, Al2O3 and K2O.</p>
+	<p> </p>
+	<p> </p>
+    </article>
+</section>
+
+<footer>
+  <p>By JKnudsen</p>
+</footer>
+
+</body>
+</html>

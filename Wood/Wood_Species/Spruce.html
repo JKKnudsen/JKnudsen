@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>JKnudsen</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+li:hover{
+  background-color:DimGray;
+  border:2px solid Silver;
+}
+* {
+  box-sizing: border-box;
+  }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #46261F;
+}
+
+/* Style the header */
+header {
+  background-color: Gray;
+  text-align: left;
+  font-size: 300%;
+  color: Ivory;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;  
+  padding:1px;
+}
+nav li {
+  font-size:150%;
+  border:2px solid DarkGray; 
+  background-color:#444343; 
+  position:relative;
+  left:10px;
+  padding:3px;
+  margin: 10px ;
+}
+nav li a{
+  margin:1px;
+  padding:1px;	
+  color:Ivory; 
+  text-decoration:none; 
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  background-color: WhiteSmoke;
+
+}
+article p{
+	margin:1px;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  
+  <h2>
+      <img src="../wood_is_good.jpg" alt="Failed to Load" style="width:300px;height:200px;padding:5px;">
+      Spruce
+  </h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+	  <li style="width:40%; left:-20px;"><a href="../../index.htm">Home</a></li>
+      <li style="width:60%; left:-10px;"><a href="../Wood.htm" >Wood</a></li>
+      <li><a href="#" >...</a></li>
+
+      
+      
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Spruced up!</h1>
+    
+    <p>On my propertie there is two varieties of Spruce. Mostly Sitka spruce(Picea Sitchensis), </p>
+	<p>but also the Norwegian Spruce(Pica Abies). Almost everything that goes through my </p>
+	<p>sawmill is Sitka. Initially from Alaska, It was introduced to Norway in the 1900's.</p>
+	<p>It grew faster, and was more resiliant to saline conditions than the Norwegian spruce.</p>
+	<p>It also has a higher elastic modulus(11GPa), vs (9.7Gpa) for Norwegian. Despite both having</p>
+	<p>similar densities of (425kg/m3) and (405kg/m3) respectivly.</p>
+	<p>These days the Sitka spruce is concidered an invasive spicies in Norway. Mostly because</p>
+	<p>it's only 100years since it was introduced. Ulike the "Norwegian" spruce introduced</p>
+	<p>about 2-3k years ago, And Pine 9k years ago. For the first 2500 years of humans living in </p>
+	<p>Norway, there where no threes. Other than possebly small refuges in the glaciers.</p>
+	<p>Where Pine, Birch and Hassle could be found. The early occurance of Hassle, is curious,</p>
+	<p>and highly indicative of human or animal involment.</p>
+	<p> </p>
+	<p>Now spruce is great for lumber and outdoor furniture. But where it shines the most is </p>
+	<p>as a varnished tone-wood. Both Sitka and Norwegian spruce gives a rich tone. But as in most</p>
+	<p>things, we must comprimise. Where Norwegian spruce, tends to have a warmer tone.</p>
+	<p>Because of it's lower elestic modulus, It will carry the lower register, but tend to distort</p>
+	<p>in the high register. For Sitka it's the exact opposite. It has excellent projection,</p>
+	<p>a clear high register, but it lacks bottom. Now this should be taken with a grain of salt.</p>
+	<p>There are many factors that affect what frequencies couple with the sound-board. </p>
+	<p>A Norwegian spruce with dense grains, will be stiffer than a spongy Sitka.</p>
+	<p>The straightness of grain is also important for predictable results. Curves and waves</p>
+	<p>in the grain can introduce transverse modes, that gulp up energy that should have </p>
+	<p>been sound-pressure in the sound-hole.</p>
+	<p>An interesting mathematical problem to concider:</p>
+	<p>Given a vector-field G(x,y), corresponding to our grain direction and density.</p>
+	<p>If an ideal grain, is constant in one direction, and periodic in the other.</p>
+	<p>And the function f(G(const,periodic)) creates the curve C, that is the outline </p>
+	<p>of a guitar. What is the Curve correspinding to a general f(G(x,y))</p>
+	<p>Remember that the signal for the cross sectional density can be Fourier transformed</p>
+	<p></p>
+	
+	<p></p>
+    </article>
+</section>
+
+<footer>
+  <p>By JKnudsen</p>
+</footer>
+
+</body>
+</html>

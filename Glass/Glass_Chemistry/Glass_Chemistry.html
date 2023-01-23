@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>JKnudsen</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script language="javascript" type="text/javascript" src="libraries/p5.min.js"></script>
+<script language="javascript" type="text/javascript" src="Spectrum.js"></script>
+
+	
+ 
+  
+<style>
+li:hover{
+  background-color:DimGray;
+  border:2px solid Silver;
+}
+* {
+  box-sizing: border-box;
+  }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #6EB7BA;
+}
+
+/* Style the header */
+header {
+  background-color: Gray;
+  text-align: left;
+  font-size: 300%;
+  color: Ivory;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;  
+  padding:1px;
+}
+nav li {
+  font-size:150%;
+  border:2px solid DarkGray; 
+  background-color:#444343; 
+  position:relative;
+  left:10px;
+  padding:3px;
+  margin: 10px ;
+}
+nav li a{
+  margin:1px;
+  padding:1px;	
+  color:Ivory; 
+  text-decoration:none; 
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  background-color: WhiteSmoke;
+
+}
+article p{
+	margin:1px;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  
+  <h2>
+      Glass Chemistry
+  </h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+	  <li style="width:40%; left:-20px;"><a href="../../index.htm">Home</a></li>
+     
+	  <li><a href="Soda_Lime/Soda_lime.html" >Soda Lime</a></li>
+	  <li><a href="#" >Boro Silicate</a></li>
+	  <li><a href="#" >Lead</a></li>
+	  <li><a href="#" >Fused Silica</a></li>	  
+      <li><a href="#" >Other</a></li>
+	  <li><a href="../../Scripts/Glass_Comperator/index.html" >Comperator</a></li>
+      
+      
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Through the Looking Glass!</h1>
+     
+    
+    <p>Glass is characterized as an amorphous solid. That is to say it has no crystaline lattice</p>
+    <p>structure over a long range. Others include gels and polymers. The mineral mostly </p>
+	<p>assosiated with glass is Silicon DiOxide. But in it's pure form the meltingpoint is about 1710°C</p>
+	<p>requiring the use of a Hydrogen-Oxygen torch. That is why most glass used today also contain</p>
+	<p>addetives, such as sodium oxide, that acts as a flux, lowering the meltingpoint by simply</p>
+	<p>dissolving the SiO2 in the flux. Other trace elements can add color, or change the mechanical</p>
+	<p> and optical properties of the glass. In the menu, you will find a compilation of physical</p>
+	<p>characteristics, for various common glass types. This is not a comprehensive lexicon, but is</p>
+	<p>intendid to serve as a general lookup for my own projects. But may serve others in </p>
+	<p>the amature optics and glass manufacturing community.</p>
+	
+	<p></p>
+
+  
+	
+	</article>
+</section>
+	
+<footer>
+  <p>By JKnudsen</p>
+</footer>
+
+</body>
+</html>

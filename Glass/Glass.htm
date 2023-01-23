@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>JKnudsen</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+li:hover{
+  background-color:DimGray;
+  border:2px solid Silver;
+}
+* {
+  box-sizing: border-box;
+  }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #6EB7BA;
+}
+
+/* Style the header */
+header {
+  background-color: Gray;
+  text-align: left;
+  font-size: 300%;
+  color: Ivory;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;  
+  padding:1px;
+}
+nav li {
+  font-size:150%;
+  border:2px solid DarkGray; 
+  background-color:#444343; 
+  position:relative;
+  left:10px;
+  padding:3px;
+  margin: 10px ;
+}
+nav li a{
+  margin:1px;
+  padding:1px;	
+  color:Ivory; 
+  text-decoration:none; 
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  background-color: WhiteSmoke;
+
+}
+article p{
+	margin:1px;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  
+  <h2>
+      <img src="Glass_Kiln.jpg" alt="Failed to Load" style="width:230px;height:230px;padding:5px;">
+      Glass
+  </h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+	  <li style="width:40%; left:-20px;"><a href="../index.htm">Home</a></li>
+      <li><a href="Glass_Chemistry/Glass_Chemistry.html" >Glass Chemistry</a></li>
+	  <li><a href="#" >Cutting and Grinding</a></li>
+      <li><a href="#" >Lampworking</a></li>
+	  <li><a href="#" >Casting</a></li>
+	  <li><a href="#" >Blowing</a></li>
+   
+      
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>It's crystal clear!</h1>
+
+    <img src="Glass_Slip_Bowl.jpg" alt="Failed to Load" style="width:200px;height:300px;padding:5px;">
+
+    <p>Early homonids did at some point realize that certain stones, did not fracture like the others.</p>
+    <p>Flint, Quartz and Obsidian would all make what we today call a Conchoidal fracture.</p>
+	<p>Leaving a sharp edge, excelent for tools and weaponry. Spuring on humanitys first Silicon revolution.</p>
+	<p>And our introduction to amorphous solids.</p>
+	<p>But it was not until mastery of ceramics that humans had their own volcanoes.</p>
+	<p>And somewhere in the middle-east about 6k years ago, someone probably made a mistake mixing glaze.</p>
+	<p>This glaze was now rich in sodium and silicate, with the sodium acting as a flux, </p>
+	<p>Lowering the melting point of the scilicate. So when the pot was fired, small translucent prills</p>
+	<p>would run of the pot. It was probably not the first time it happened, but someone got the idea,</p>
+	<p>to rework these prills in an open flame, and made the first glass beads in an early form</p>
+	<p>of what we today call lampworking.</p>
+	<p>The next development was casting of large blanks, that where then cut and ground into shape.</p>
+	<p>It was not until the Romans that the modern art of glass-blowing was invented. And large,<p/>
+	<p>glass objects could be made at a fraction of the cost.</p>
+    </article>
+</section>
+
+<footer>
+  <p>By JKnudsen</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>JKnudsen</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+li:hover{
+  background-color:DimGray;
+  border:2px solid Silver;
+}
+* {
+  box-sizing: border-box;
+  }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #46261F;
+}
+
+/* Style the header */
+header {
+  background-color: Gray;
+  text-align: left;
+  font-size: 300%;
+  color: Ivory;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;  
+  padding:1px;
+}
+nav li {
+  font-size:150%;
+  border:2px solid DarkGray; 
+  background-color:#444343; 
+  position:relative;
+  left:10px;
+  padding:3px;
+  margin: 10px ;
+}
+nav li a{
+  margin:1px;
+  padding:1px;	
+  color:Ivory; 
+  text-decoration:none; 
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  background-color: WhiteSmoke;
+
+}
+article p{
+	margin:1px;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  
+  <h2>
+      <img src="Flower_Pot.jpg" alt="Failed to Load" style="width:300px;height:auto;padding:5px;">
+      Wood
+  </h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+	  <li style="width:40%; left:-20px;"><a href="../index.htm">Home</a></li>
+      <li><a href="Sawmill/Sawmill.htm" >Sawmill</a></li>
+      <li><a href="Laser_Cutting_and_Engraving/Laser_Cutting_and_Engraving.html" >Laser Cutting and Engraving</a></li>
+      <li><a href="Woodturning/Woodturning.htm" >Woodturning</a></li>
+      <li><a href="Furniture/furniture.htm" >Furniture</a></li>
+      <li><a href="Musical_Instruments/Musical_Instruments.htm" >Musical Instruments</a></li>
+	  <li><a href="Wood_Species/Spruce.html">Spruce</a></li>
+	  <li><a href="Wood_Species/Birch.html" >Birch</a></li>
+	  <li><a href="Wood_Species/Chestnut.html" >Chestnut</a></li>
+	  <li><a href="Wood_Species/Beech.html" >Beech</a></li>
+	  <li><a href="Wood_Species/Rowan.html" >Rowan</a></li>
+	  <li><a href="Wood-ash/Wood-ash.html" >Wood Ash</a></li>
+	  <li><a href="Varnish/Varnish.html" >Varnish</a></li>
+      
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Wood is Good!</h1>
+    <img src="wood_is_good.jpg" alt="Failed to Load" style="width:300px;height:auto;padding:5px;">
+    <p>Few materials are as versatile as wood. A soft-wood like Sitka Spruce,</p>
+    <p>with it's high strength to weight ratio, makes the highes quality soundboards.</p>
+    <p>And was the wood of choice for aircraft frames, before the advent of closed-die casting of aluminium.</p>
+    <p>On the other side you have hard-woods like oak, with a high density and hard surface it makes finest furniture.</p> 
+    <p>Hard-woods is also the choise for muted and non-resonating parts of musical instruments.</p>
+    <p>For stringed necks, it's simply Maple, but for back and sides we are free to</p>
+    <p>make more of an aesthetical choice. Chestnut, Birch, Rowan and Beech are all beautyful hard-woods</p>
+    <p>with exelent wear-resistance. </p>
+    <p>And all the wood-species mentioned here, I cultivate at home and process on my sawmill.</p>
+    <p>The lumber will then air-dry, or go in a vacuum-kiln, depending on application.</p>
+    <p>I then work the stabilized wood into a variety products.With an oiled stained finish for the rough outdoors.</p>
+    <p>And a high polish, rosin based, homemade varnish, for protecting delicate musical instruments. </p>
+    </article>
+</section>
+
+<footer>
+  <p>By JKnudsen</p>
+</footer>
+
+</body>
+</html>
