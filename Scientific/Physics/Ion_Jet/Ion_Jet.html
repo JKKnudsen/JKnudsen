@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>JKnudsen</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+li:hover{
+  background-color:DimGray;
+  border:2px solid Silver;
+}
+* {
+  box-sizing: border-box;
+  }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #606873;
+}
+
+/* Style the header */
+header {
+  background-color: Gray;
+  text-align: left;
+  font-size: 300%;
+  color: Ivory;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;  
+  padding:1px;
+}
+nav li {
+  font-size:150%;
+  border:2px solid DarkGray; 
+  background-color:#444343; 
+  position:relative;
+  left:10px;
+  padding:3px;
+  margin: 10px ;
+}
+nav li a{
+  margin:1px;
+  padding:1px;	
+  color:Ivory; 
+  text-decoration:none; 
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  background-color: WhiteSmoke;
+
+}
+article p{
+	margin:1px;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  
+  <h2>
+      <img src="IonImg0.png" alt="Failed to Load" style="width:220px;height:auto;padding:5px;">
+      Ion Jet
+  </h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+	  <li style="width:40%; left:-20px;"><a href="../../../index.htm">Home</a></li>
+	  <li style="width:60%; left:-10px;"><a href="../Physics.html" >Physics</a></li>
+    
+
+      
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Oh, It's Ion!</h1>
+
+    
+
+    <p>I think most with a high-voltage supply, has at some point made an ion-jet.</p>
+    <p>The idea is to ionize molecules of air, these are then accelerated by the electric field.</p>
+	<p>Along the journey from the electrode with sharp to smooth field-gradient.</p>
+	<p>The ion bumps into neutral gas molecules, these are then accelerated, </p>
+	<p>and beeing nutral, they are free to leave out the back.</p>
+	<Br>
+	<p>Mine was used a 555-timer flyback circuit. It was a DC Flyback, but that does not matter.</p>
+	<p>It's the field gradient that is responcible for ionazation, anion or cathions both push the air.</p>
+	<p>Even if its AC.</p>
+	<video width="360" height=auto autoplay muted>
+     <source src="Ion0.mp4" type="video/mp4">
+	 Your browser does not support the video tag.
+	 </video>
+	<p>You can observe the coronal discharge between the electrodes, here just a wire point,</p>
+	<p>and a thicker but smooth coil. The air leaving the back is pushing a thin strip of paper.</p>
+	<p>I also experimented with multiple electrodes.</p>
+	<video width="360" height=auto autoplay muted>
+     <source src="Ion1.mp4" type="video/mp4">
+	 Your browser does not support the video tag.
+	 </video>
+	<p>Fun experiment, but a bit lack luster. Back then(2015) I couldn't see how to get a small, </p>
+	<p>but powerfull enough supply, to drive a plane or hovercraft.</p>
+	<p>But these days you can get some incredible small neon-transformers, </p>
+	<p>that can probably do something usefull.</p>
+	<p>Sorry about the horrendous video quallity, it was a long time ago.</p>
+	<p></p>
+    </article>
+</section>
+
+<footer>
+  <p>By JKnudsen</p>
+</footer>
+
+</body>
+</html>
