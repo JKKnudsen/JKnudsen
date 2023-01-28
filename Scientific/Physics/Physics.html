@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>JKnudsen</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+li:hover{
+  background-color:DimGray;
+  border:2px solid Silver;
+}
+* {
+  box-sizing: border-box;
+  }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #606873;
+}
+
+/* Style the header */
+header {
+  background-color: Gray;
+  text-align: left;
+  font-size: 300%;
+  color: Ivory;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;  
+  padding:1px;
+}
+nav li {
+  font-size:150%;
+  border:2px solid DarkGray; 
+  background-color:#444343; 
+  position:relative;
+  left:10px;
+  padding:3px;
+  margin: 10px ;
+}
+nav li a{
+  margin:1px;
+  padding:1px;	
+  color:Ivory; 
+  text-decoration:none; 
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  background-color: WhiteSmoke;
+
+}
+article p{
+	margin:1px;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  
+  <h2>
+      <img src="Physics0.png" alt="Failed to Load" style="width:auto;height:150px;padding:5px;">
+      Physics
+  </h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+	  <li style="width:40%; left:-20px;"><a href="../index.htm">Home</a></li>
+	  <li style="width:60%; left:-10px;"><a href="../Scientific.htm" >Scientific</a></li>
+      <li><a href="Wimshurst/Wimshurst.html" >Wimshurst Machine</a></li>
+	  <li><a href="Vis_Spectroscopy/Vis_Spectroscopy.html" >Vis Spectroscopy</a></li>
+	  <li><a href="Ion_Jet/Ion_Jet.html" >Ion Jet</a></li>
+
+
+      
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Physics</h1>
+	
+	<p>Oddly enough, unlike all of my other intressts. </p>
+	<p>I actually have formal education in physics at a university level.</p>
+	<p>Or should I say the student-card gave access to the uni-trash,</p>
+	<p>and repairing broken instrumentation gave me an education. </p>
+	<p>Still the community is great, both for challange and assistance.</p>
+	<p>But despite me still dipping some toes in acedemia. </p>
+	<p>Our dissagrement about what is a reasonable hour to get up,</p>
+	<p>and me not really beeing that passionate about the available paths,</p>
+	<p>have decided to part ways. </p>
+	<p>My passion for the subject is still there though,</p>
+	<p>and so here I have a collection of experimantal-physics related projects.</p>
+	<p>And I may also post some preprints in the future. </p>
+	<p>but that is mostly related to normed division-algebras and physical applications.</p>
+    <p>Just need to dot a few i's first.</p>
+    </article>
+</section>
+
+<footer>
+  <p>By JKnudsen</p>
+</footer>
+
+</body>
+</html>
