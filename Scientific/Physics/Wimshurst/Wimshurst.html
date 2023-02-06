@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>JKnudsen</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+li:hover{
+  background-color:DimGray;
+  border:2px solid Silver;
+}
+* {
+  box-sizing: border-box;
+  }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #606873;
+}
+
+/* Style the header */
+header {
+  background-color: Gray;
+  text-align: left;
+  font-size: 300%;
+  color: Ivory;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;  
+  padding:1px;
+}
+nav li {
+  font-size:150%;
+  border:2px solid DarkGray; 
+  background-color:#444343; 
+  position:relative;
+  left:10px;
+  padding:3px;
+  margin: 10px ;
+}
+nav li a{
+  margin:1px;
+  padding:1px;	
+  color:Ivory; 
+  text-decoration:none; 
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  background-color: WhiteSmoke;
+
+}
+article p{
+	margin:1px;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  
+  <h2>
+      <img src="031.jpg" alt="Failed to Load" style="width:220px;height:auto;padding:5px;">
+      Wimshurst Machine
+  </h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+	  <li style="width:40%; left:-20px;"><a href="../../../index.htm">Home</a></li>
+	  <li style="width:60%; left:-10px;"><a href="../Physics.html" >Physics</a></li>
+    
+
+      
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Wimshurst Machine</h1>
+
+    
+
+    <p>Back in 2013 I got really into classical electrostatic generators. </p>
+    <p>There is something so appealing about a hand-cranked high-voltage source.</p>
+	<p>As well as the early instrumentation, like the gold-leaf electroscope.</p>
+	<p>All of wich can be made from items at a hardware-store.</p>
+	<p>That was also where I got the poly-carbonate we see here.</p>
+	<img src="059.png" alt="Failed to Load" style="width:200px;height:auto;padding:5px;">
+	<p>It was cut with a 3D-printed circle cutting jig.(Had just made my first 3d printer)</p>
+	<p>In v.1 of the Wimshurst machine, I just wanted to se if I could get it working. </p>
+	<p>And so, was just cobbled together with bits laying around.</p>
+	 <video width="100" height=auto autoplay muted>
+     <source src="Wimshurst2.mp4" type="video/mp4">
+	 Your browser does not support the video tag.
+	 </video>
+	<p>Foil-tape for the charge carrying-plates, PVC-tubing for the belt drives.</p>
+	<p>For the capasitors I just used some PVC pipes, lined inside and out with foil tape.</p>
+	<video width="200" height=auto autoplay muted>
+     <source src="Wimshurst.mp4" type="video/mp4">
+	 Your browser does not support the video tag.
+	 </video>
+	<p>The brushes where made from solder-wick, and the combs from copper wire,</p>
+	<p>sharpened to a point, and soldered to the cover plate.</p>
+	<p>Most of the parts from v.1 was reused in v.2. </p>
+	<img src="032.jpg" alt="Failed to Load" style="width:640px;height:auto;padding:5px;">
+	<p>Now obviously I don't have video of v.2 in use. It was donated to the Physics pub</p>
+	<p>at UiB, but I belive someone took it. The only thing I know for certain,</p>
+	<p>is that I have no idea where it is.</p>
+	<p>Before i donated it, I did use it for some cool things.</p>
+	<p>It could drive an x-ray tube. As well as my home-made CO2-laser tube, at least</p>
+	<p>the two pulses the tube lasted.</p>
+	<p>I would love to make another wimshurst machine, but this time it's go BIG or go home.</p>
+	<p>I have my eye set on those round, 1m diameter, glass patio-tables.</p>
+	<p>When a matching pair has been found in the giva-away section, </p>
+	<p>it's time for v.3.</p>
+	<p></p>
+	
+    <p></p>
+    </article>
+</section>
+
+<footer>
+  <p>By JKnudsen</p>
+</footer>
+
+</body>
+</html>
