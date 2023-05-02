@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>JKnudsen</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+li:hover{
+  background-color:DimGray;
+  border:2px solid Silver;
+}
+* {
+  box-sizing: border-box;
+  }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #606873;
+}
+
+/* Style the header */
+header {
+  background-color: Gray;
+  text-align: left;
+  font-size: 300%;
+  color: Ivory;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;  
+  padding:1px;
+}
+nav li {
+  font-size:150%;
+  border:2px solid DarkGray; 
+  background-color:#444343; 
+  position:relative;
+  left:10px;
+  padding:3px;
+  margin: 10px ;
+}
+nav li a{
+  margin:1px;
+  padding:1px;	
+  color:Ivory; 
+  text-decoration:none; 
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  background-color: WhiteSmoke;
+
+}
+article p{
+	margin:1px;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  
+  <h2>
+      <img src="head.jpg" alt="Failed to Load" style="height:160px;width:auto;padding:5px;">
+      Birkeland Eyde Process
+  </h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+	  <li style="width:40%; left:-20px;"><a href="../../../index.htm">Home</a></li>
+      <li><a href="../Chemistry.html" >Chemistry</a></li>
+
+      
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Out of thin Air</h1>
+
+	<p>Back in 2012 there where uncertainties of how available nitrates would be to the armature chemist.</p>
+	<p>For reasons, potassium-nitrate was no longer over the counter, would calsium-nitrate go next?</p>
+	<p>How are you going to coat "all the things!" in silver without nitric acid to make your silver nitrate</p>
+	<p>Luckly Henry Cavendish made in 1784 the observation, that a high voltage discharge would sometimes</p>
+	<p>produce nitric oxide. Further developments in arch controll was made by Julius Plücker.</p>
+	<p>But the inducrial process we know today, was developed by Kristian Birkeland and Sam Eyde.</p>
+	<p>The process in itself is rather simple. The air around us contain both Oxygen and Nitrogen</p>
+	<p>When we talk about a nitrate we refere to NO3-, nitric acid would be HNO3.</p>
+	<p>As you can see the air around us is almost a nitrate by itself. </p>
+	<p>If only there was a way to make the diatomic N2 gas, loosen that pesky triple bond.</p>
+	<p>Well, as it turns out, about 5kV and 3000C will do the trick.</p>
+	<p>Under these conditions diatomic Nitrogen  splits, and is free to react with Oxygen.</p>
+	<p>Forming Nitric Oxide. The Nitric Oxide quickly reacts with more oxygen,</p>
+	<p>and forms Nitrogen DiOxide, NO2.</p>
+	<p>The NO2 is then bubbled through water, forming nitric acid, HNO3.</p>
+	<br>
+	<p>This is the process, but in my first attempt I used a 555 based fly-back as</p>
+	<p>a high voltage source. This failed to deliver the necessary temperatures,</p>
+	<p>and didn't give any change to the pH of the reciver.</p>
+	<video width="320" height="240" autoplay muted>
+     <source src="BE_HF.mp4" type="video/mp4">
+	 Your browser does not support the video tag.
+	 </video>
+	<p>Round two, the 555, was swaped for a ZVS. These will dump alot more power into your</p>
+	<p>flyback, but it also like to push the magic smoke out of the driving transistors,</p>
+	<p>and is a firm beliver in short working hours.</p>
+	<video width="320" height="240" autoplay muted>
+     <source src="BE_ZVS.mp4" type="video/mp4">
+	 Your browser does not support the video tag.
+	 </video>
+	<p>This time around, ther was some positive results, the pH was clearly indicating</p>
+	<p>that it was highly acidic. But titration reveiled a rather abysmal amount of HNO3.</p>
+	<img src="pH.jpg" alt="Failed to Load" style="height:160px;width:auto;padding:5px;">
+	<p>And this was the point where I actuall did the calculation, to see how much I should expect.</p>
+	<p>And got a sharp reminder why you always do the calculations first, and don't skim past</p>
+	<p>the section of a paper that deals with the power requirements.. </p>
+	<p>30g of HNO3 per kWh is the industrial standard, at home it's more like 3g/kWh.</p>
+    <p>Luckly Ca(NO3)2 never went out of sale.</p>
+	<br>
+	<p>Still there is a part of me that would like to be self-sufficient nitrate wise,</p>
+	<p>And some preliminary experiments, based around a little known process that predates </p>
+	<p>Birkeland-Eyde has yielded some "peaty" neat results. More to come!</p>
+    </article>
+</section>
+
+<footer>
+  <p>By JKnudsen</p>
+</footer>
+
+</body>
+</html>

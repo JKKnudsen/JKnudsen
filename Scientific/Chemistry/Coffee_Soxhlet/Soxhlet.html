@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>JKnudsen</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+li:hover{
+  background-color:DimGray;
+  border:2px solid Silver;
+}
+* {
+  box-sizing: border-box;
+  }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #606873;
+}
+
+/* Style the header */
+header {
+  background-color: Gray;
+  text-align: left;
+  font-size: 300%;
+  color: Ivory;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;  
+  padding:1px;
+}
+nav li {
+  font-size:150%;
+  border:2px solid DarkGray; 
+  background-color:#444343; 
+  position:relative;
+  left:10px;
+  padding:3px;
+  margin: 10px ;
+}
+nav li a{
+  margin:1px;
+  padding:1px;	
+  color:Ivory; 
+  text-decoration:none; 
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  background-color: WhiteSmoke;
+
+}
+article p{
+	margin:1px;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  
+  <h2>
+      <img src="Soxhlet1.jpg" alt="Failed to Load" style="height:160px;width:auto;padding:5px;">
+      Coffee d'Soxhlet
+  </h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+	  <li style="width:40%; left:-20px;"><a href="../../../index.htm">Home</a></li>
+      <li><a href="../Chemistry.html" >Chemistry</a></li>
+
+      
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>A cup of Coffee d'Soxhlet?</h1>
+
+	<p>Have you ever had a cup of percolated coffee and thought.</p>
+	<p>"Oh man percolator coffee is the best, if it could only tast more of peat-bog"</p>
+    <p>Well, have I got good news for you! Behold Coffee d'Soxhlet!</p>
+	<img src="Soxhlet0.jpg" alt="Failed to Load" style="width:300px;height:auto;padding:5px;">
+	<p>Years ago I bought a brand new Soxhlet-extractor. </p>
+	<p>And if you get new unused glassware, you should always ask.</p>
+	<p>"Is there something edible stuff to do?"</p>
+	<p>For the Soxhlet it was obvious, as it is pretty much a coffemaker already.</p>
+	<p>But there is a differance, Because the Soxhlet recycles the water.</p>
+	<br>
+	<p>The grounds is placed in a glass-thimble, in the center compartment.</p>
+	<p>The water in the bottom blask, evaporate, and is condenced,over the thimble.</p>
+	<p>The center compartment has a siphon, so when the water reaches a certain level,</p>
+	<p>The coffee-soaked water pours down to the bottom flask. </p>
+	<p>The water is now free to evaporate again, an the cycle repeats.</p>
+	<br>
+	<p>Coffee d'Soxhlet can be characterized by the number of cycles.</p>
+	<br>
+	<p>1:"This just taste like earthy coffee"</p>
+	<p>2:"Who knew a bog could taste this bitter?"</p>
+	<p>3:"How can something taste more swampy than a swamp?"</p>
+	<p>4:"We were so preoccupied with whether or not we could, </p>
+    <p>we didn't stop to think if we should?"</p>
+    </article>
+</section>
+
+<footer>
+  <p>By JKnudsen</p>
+</footer>
+
+</body>
+</html>
